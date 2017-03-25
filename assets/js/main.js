@@ -114,4 +114,4 @@ function showAppList(list) {
   });
 }
 
-asyncLoadScript('/assets/js/data.js', render);
+asyncLoadScript('./assets/js/data.js', render);
