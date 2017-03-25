@@ -187,7 +187,7 @@ var data = {
       "ios_url": "",
       "web_url": "",
       "android_url": "",
-      "icon": "/assets/img/default_link.png"
+      "icon": "./assets/img/default_link.png"
     },
       {
       "name": "Postmates",
@@ -196,7 +196,7 @@ var data = {
       "ios_url": "",
       "web_url": "",
       "android_url": "",
-      "icon": "/assets/img/default_link.png"
+      "icon": "./assets/img/default_link.png"
     },
     {
       "name": "Uber",
@@ -205,7 +205,7 @@ var data = {
       "ios_url": "",
       "web_url": "",
       "android_url": "",
-      "icon": "/assets/img/default_link.png"
+      "icon": "./assets/img/default_link.png"
     },
       {
       "name": "Netflix",
@@ -214,7 +214,7 @@ var data = {
       "ios_url": "",
       "web_url": "",
       "android_url": "",
-      "icon": "/assets/img/default_link.png"
+      "icon": "./assets/img/default_link.png"
     },
     {
       "name": "Amazon",
@@ -223,7 +223,7 @@ var data = {
       "ios_url": "",
       "web_url": "",
       "android_url": "",
-      "icon": "/assets/img/default_link.png"
+      "icon": "./assets/img/default_link.png"
     },
       {
       "name": "Audible",
@@ -232,7 +232,7 @@ var data = {
       "ios_url": "",
       "web_url": "",
       "android_url": "",
-      "icon": "/assets/img/default_link.png"
+      "icon": "./assets/img/default_link.png"
     },
     {
       "name": "Square",
@@ -241,7 +241,7 @@ var data = {
       "ios_url": "",
       "web_url": "https://squareup.com",
       "android_url": "",
-      "icon": "/assets/img/default_link.png"
+      "icon": "./assets/img/default_link.png"
     },
     {
       "name": "Zenefit",
@@ -250,7 +250,7 @@ var data = {
       "ios_url": "",
       "web_url": "",
       "android_url": "",
-      "icon": "/assets/img/default_link.png"
+      "icon": "./assets/img/default_link.png"
     },
     {
       "name": "TurboTax",
@@ -259,7 +259,7 @@ var data = {
       "ios_url": "",
       "web_url": "",
       "android_url": "",
-      "icon": "/assets/img/default_link.png"
+      "icon": "./assets/img/default_link.png"
     },
     {
       "name": "Echo",
@@ -268,7 +268,7 @@ var data = {
       "ios_url": "",
       "web_url": "",
       "android_url": "",
-      "icon": "/assets/img/default_link.png"
+      "icon": "./assets/img/default_link.png"
     },
     {
       "name": "Kahn Academy",
@@ -277,7 +277,7 @@ var data = {
       "ios_url": "",
       "web_url": "",
       "android_url": "",
-      "icon": "/assets/img/default_link.png"
+      "icon": "./assets/img/default_link.png"
     },
     {
       "name": "Weibo",
@@ -286,7 +286,7 @@ var data = {
       "ios_url": "",
       "web_url": "",
       "android_url": "",
-      "icon": "/assets/img/default_link.png"
+      "icon": "./assets/img/default_link.png"
     }
   ]
 }
