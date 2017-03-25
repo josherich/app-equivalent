@@ -34,8 +34,18 @@
         {% endif %}
       </header>
       <section>
+        <div class="title">What people are using in</div>
+        <div name="region" class="app-selector" id="region_select"></div>
+        <div class="title">for</div>
+        <div name="category" class="app-selector" id="category_select"></div>
+        <div class="title">on</div>
+        <div name="platform" class="app-selector" id="platform_select">
+          <div class="platform-filter" id="ios">iOS</div>
+          <div class="platform-filter" id="android">Android</div>
+          <div class="platform-filter" id="web">Web</div>
+        </div>
 
-      {{ content }}
+        <div id="list"></div>
 
       </section>
       <footer>
@@ -45,6 +55,7 @@
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
+    <script src="/assets/js/main.js"></script>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
 

@@ -1,8 +1,6 @@
 # app-equivalent
 What is the equivalent of X in Y?
 
-# US
-
 ### SNS
 
 - [Facebook]()

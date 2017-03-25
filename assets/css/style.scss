@@ -6,3 +6,38 @@
 html {
   font-family: optima;
 }
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.app-selector {
+  margin: 10px 0;
+}
+
+.region-filter, .category-filter, .platform-filter {
+  display: inline-block;
+  margin: 7px 10px;
+  padding: 5px 7px;
+  border-radius: 3px;
+  cursor: pointer;
+  &.selected {
+    color: white;
+    background: #39c;
+  }
+}
+
+.list-item {
+  display: inline-block;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgba(0,0,0,.05);
+  img {
+    width: 100%;
+  }
+}
+
+.app-title {
+  text-align: center;
+}
