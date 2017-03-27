@@ -2,6 +2,7 @@ var data = {
   "data": [
     {
       "name": "Facebook",
+      "desc": "Biggest Social Network, but young people usually don't use it.",
       "region": "US",
       "category": "SNS",
       "ios_url": "https://itunes.apple.com/us/app/facebook/id284882215?mt=8",
@@ -11,6 +12,7 @@ var data = {
     },
     {
       "name": "Reddit",
+      "desc": "Social news aggregation, web content rating, and discussion website. Reddit's registered community members can submit content, such as text posts or direct links. Registered users can then vote submissions up or down to organize the posts and determine their position on the site's pages. The submissions with the most positive votes appear on the front page or the top of a category. Content entries are organized by areas of interest called 'subreddits'.",
       "region": "US",
       "category": "SNS",
       "ios_url": "",
@@ -20,6 +22,7 @@ var data = {
     },
     {
       "name": "Twitter",
+      "desc": "Described as 'the SMS of the Internet'",
       "region": "US",
       "category": "SNS",
       "ios_url": "",
@@ -35,6 +38,15 @@ var data = {
       "web_url": "",
       "android_url": "",
       "icon": "https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/whatsapp-128.png"
+    },
+    {
+      "name": "Messenger",
+      "region": "US",
+      "category": "IM",
+      "ios_url": "",
+      "web_url": "",
+      "android_url": "",
+      "icon": "https://assets.materialup.com/uploads/78fac9bb-4db8-4b9d-ae0b-bcd8360ed88d/icon285x285.jpeg"
     },
     {
       "name": "SnapChat",
@@ -187,7 +199,7 @@ var data = {
       "ios_url": "",
       "web_url": "",
       "android_url": "",
-      "icon": "./assets/img/default_link.png"
+      "icon": "http://reeoo.qiniudn.com/Munchery-icon.jpeg!icon512"
     },
       {
       "name": "Postmates",
@@ -196,7 +208,7 @@ var data = {
       "ios_url": "",
       "web_url": "",
       "android_url": "",
-      "icon": "./assets/img/default_link.png"
+      "icon": "http://miamiherald.typepad.com/.a/6a00d83451b26169e201b8d065fe9b970c-pi"
     },
     {
       "name": "Uber",
@@ -205,7 +217,7 @@ var data = {
       "ios_url": "",
       "web_url": "",
       "android_url": "",
-      "icon": "./assets/img/default_link.png"
+      "icon": "https://cdn.geekwire.com/wp-content/uploads/2016/02/uberriderlogo-e1454443856991-300x300.png"
     },
       {
       "name": "Netflix",
@@ -214,7 +226,7 @@ var data = {
       "ios_url": "",
       "web_url": "",
       "android_url": "",
-      "icon": "./assets/img/default_link.png"
+      "icon": "https://d2ygrtdi28m8fp.cloudfront.net/corporateAssets/Netflix_Logo_DigitalVideo_0701.jpg"
     },
     {
       "name": "Amazon",
@@ -223,7 +235,7 @@ var data = {
       "ios_url": "",
       "web_url": "",
       "android_url": "",
-      "icon": "./assets/img/default_link.png"
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Amazon-icon.png"
     },
       {
       "name": "Audible",
@@ -232,7 +244,7 @@ var data = {
       "ios_url": "",
       "web_url": "",
       "android_url": "",
-      "icon": "./assets/img/default_link.png"
+      "icon": "https://assets.materialup.com/uploads/a3824721-79a9-42a3-a388-0342925edff9/avatar.png"
     },
     {
       "name": "Square",
@@ -241,16 +253,16 @@ var data = {
       "ios_url": "",
       "web_url": "https://squareup.com",
       "android_url": "",
-      "icon": "./assets/img/default_link.png"
+      "icon": "http://www.newdesignfile.com/postpic/2015/08/square-register-app-icon_77115.png"
     },
     {
-      "name": "Zenefit",
+      "name": "Zenefits",
       "region": "US",
       "category": "Business",
       "ios_url": "",
       "web_url": "",
       "android_url": "",
-      "icon": "./assets/img/default_link.png"
+      "icon": "https://static.crozdesk.com/web_app_library/providers/logos/000/000/309/original/zenefits-logo.png?1431708784"
     },
     {
       "name": "TurboTax",
@@ -259,7 +271,7 @@ var data = {
       "ios_url": "",
       "web_url": "",
       "android_url": "",
-      "icon": "./assets/img/default_link.png"
+      "icon": "https://upload.wikimedia.org/wikipedia/en/8/82/TurboTax_Logo.png"
     },
     {
       "name": "Echo",
@@ -268,16 +280,16 @@ var data = {
       "ios_url": "",
       "web_url": "",
       "android_url": "",
-      "icon": "./assets/img/default_link.png"
+      "icon": "https://cdn1.iconfinder.com/data/icons/modern-future-technology-2/128/smart-speaker-sm-512.png"
     },
     {
       "name": "Kahn Academy",
       "region": "US",
-      "category": "Business",
+      "category": "Education",
       "ios_url": "",
       "web_url": "",
       "android_url": "",
-      "icon": "./assets/img/default_link.png"
+      "icon": "https://cdn.kastatic.org/images/avatars/svg/leaf-green.svg"
     },
     {
       "name": "Weibo",
@@ -286,7 +298,45 @@ var data = {
       "ios_url": "",
       "web_url": "",
       "android_url": "",
-      "icon": "./assets/img/default_link.png"
+      "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Sina_Weibo.svg/740px-Sina_Weibo.svg.png"
+    },
+    {
+      "name": "Douban",
+      "region": "China",
+      "intro": "",
+      "category": "SNS",
+      "ios_url": "",
+      "web_url": "",
+      "android_url": "",
+      "icon": "https://static-s.aa-cdn.net/img/ios/907002334/6c46305eabf99ed0dded887d0d9e7d77"
+    },
+    {
+      "name": "Zhihu",
+      "region": "China",
+      "category": "SNS",
+      "ios_url": "",
+      "web_url": "",
+      "android_url": "",
+      "icon": "https://static-s.aa-cdn.net/img/ios/432274380/a24512aa91e79356ea2ff049d01471bd"
+    },
+    {
+      "name": "Baidu Tieba",
+      "desc": " online community bound tightly with internet search services, one of the main business of Baidu. The website functions by having users search or create a bar (Forum) by typing a keyword, and if the bar has not been created before, it is then created upon the search.",
+      "region": "China",
+      "category": "SNS",
+      "ios_url": "",
+      "web_url": "",
+      "android_url": "",
+      "icon": "https://static-s.aa-cdn.net/img/ios/477927812/57601dc6f86302106382ab3e9bbab09e"
+    },
+    {
+      "name": "Line",
+      "region": "Japan",
+      "category": "IM",
+      "ios_url": "",
+      "web_url": "",
+      "android_url": "",
+      "icon": "https://static-s.aa-cdn.net/img/ios/443904275/235745d9d9c9300c00ca6cceef406356"
     }
   ]
 }

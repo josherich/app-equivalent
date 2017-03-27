@@ -107,7 +107,7 @@ function filterApps() {
 function showAppList(list) {
   listCon.innerHTML = '';
   list.map(function(app) {
-    var el = createFromString('<a href="' + app[platformFilter + '_url'] + '"><img src="' + app['icon'] + '"/><div class="app-title">'+ app['name'] + '</div></a>');
+    var el = createFromString('<a href="' + app[platformFilter + '_url'] + '"><div class="img-wrap"><img src="' + app['icon'] + '"/></div><div class="info-wrap"><div class="app-title">'+ app['name'] + '</div><div class="app-desc">' + app['desc']||'' + '</div></div></a>');
     el.id = app['name'];
     el.className = 'list-item';
     listCon.appendChild(el);
